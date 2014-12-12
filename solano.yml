@@ -25,7 +25,7 @@
 
 # Each element in the tests list will be queued to run, and executed in parallel. Each element can be bash command line.
 :tests:
-  - ". project-settings.sh && ./run.sh"
+  - ". project.sh && ./build.sh"
 
 
   # To capture JUnit XML output from a command line, set its type to "junit"
